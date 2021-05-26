@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://food/./src/js/script.js"],"names":[],"mappings":";;;;;AAAA,kB","file":"script.js","sourcesContent":["console.log('da');"],"sourceRoot":""}
