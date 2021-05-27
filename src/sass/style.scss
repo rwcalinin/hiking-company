@@ -10,10 +10,16 @@
     max-width: 1440px;
     margin: 0 auto;
 }
+.wrapper {
+    position: relative;
+    overflow: hidden;
+}
 
 // ? fonts import
 @import './modules/fonts';
 
 // ? modules
 @import './modules/buttons';
+@import './modules/menu';
 @import './modules/promo';
+@import './modules/footer';
