@@ -1,13 +1,17 @@
 .choose {
     .container {
-
+        display: flex;
     }
 
     // ! LEFT BLOCK -------
 
     // ? TOP-LEFT -------
     &__content {
+        min-width: 475px;
         max-width: 475px;
+        margin-right: 50px;
+        position: relative;
+        top: -165px;
     }
 
     &__subtitle {
@@ -51,4 +55,22 @@
     // ? --------------
 
     // ! ----------------
+    
+    // ! RIGHT BLOCK
+    // ? GALLERY
+
+    &__gallery {
+        max-width: 1375px;
+    }
+    &__gallery-inner {
+        display: flex;
+        overflow: hidden;
+        img {
+            margin-right: 34px;
+            height: 100%;
+        }
+    }
+
+    // ? --------------
+    // ! --------------
 }
