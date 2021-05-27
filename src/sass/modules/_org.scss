@@ -1,0 +1,26 @@
+.org {
+    height: 350px;
+    background: url('../../img/largest-hiking-background.jpg') 100%/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &__title {
+        font-size: 46px;
+        font-weight: 700;
+        color: #fff;
+        text-transform: uppercase;
+        margin: auto;
+        padding-bottom: 20px;
+        line-height: 52px;
+        text-align: center;
+        max-width: 698px;
+    }
+    &__descr {
+        font-size: 21px;
+        font-weight: 400;
+        color: #fff;
+        max-width: 830px;
+        margin: 0 auto;
+        text-align: center;
+    }
+}

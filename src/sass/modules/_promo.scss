@@ -8,20 +8,22 @@
         max-width: 600px;
         font-weight: 700;
         text-transform: uppercase;
-        line-height: 21px;
+        text-shadow: 2px 0px 1px #fff;
     }
 
     &__title {
         font-size: 39.5px;
-        margin: 0;
+        margin: 10px 0;
     }
 
     &__subtitle {
         font-size: 74.5px;
+        margin: 10px 0;
     }
 
     &__descr {
         font-size: 21px;
+        margin-bottom: 17.5px;
     }
 
     &__photo {

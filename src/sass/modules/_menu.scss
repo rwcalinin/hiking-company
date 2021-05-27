@@ -17,6 +17,11 @@
         a {
             font-weight: 700;
             letter-spacing: 2.5px;
+            color: #000;
+            &:hover {
+                text-decoration: none;
+                color: #000;
+            }
         }
     }
 }
