@@ -1,3 +1,48 @@
 .promo {
-    
+    background: url('../../img/hills.png') 100%/cover;
+    height: 777px;
+    padding: 20px 75px;
+    &__menu-inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 240px;
+    }
+    &__logo {
+        cursor: pointer;
+    }
+
+    &__nav {
+        width: 650px;
+        display: flex;
+        justify-content: space-between;
+
+        text-transform: uppercase;
+        font-size: 17px;
+        a {
+            font-weight: 700;
+            letter-spacing: 2.5px;
+        }
+    }
+
+    &__hello {
+        max-width: 600px;
+        font-weight: 700;
+        text-transform: uppercase;
+        line-height: 21px;
+    }
+
+    &__title {
+        font-size: 39.5px;
+        margin: 0;
+    }
+
+    &__subtitle {
+        font-size: 74.5px;
+    }
+
+    &__descr {
+        font-size: 21px;
+    }
+
 }
