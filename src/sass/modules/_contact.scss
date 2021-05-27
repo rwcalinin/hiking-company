@@ -1,0 +1,39 @@
+.contact {
+    margin-bottom: 110px;
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    // ! LEFT BLOCK
+    &__left-block {
+
+    }
+    // ! ----------
+
+    // ! RIGHT BLOCK
+    &__right-block {
+
+    }
+    &__title {
+        font-size: 46px;
+        line-height: 50px;
+        font-weight: 700;
+        max-width: 600px;
+        margin-bottom: 40px;
+    }
+    &__descr {
+        font-size: 21px;
+        line-height: 25px;
+        max-width: 586px;
+        margin-bottom: 40px;
+    }
+    &__contact__button-box {
+
+    }
+    &__button {
+
+    }
+    // ! ----------
+
+}

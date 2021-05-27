@@ -240,12 +240,10 @@ template {
   display: none !important; }
 
 * {
-  box-sizing: border-box;
   font-family: 'Montserrat';
   color: black;
   text-decoration: none;
-  font-size: 14px;
-  margin: 0; }
+  font-size: 14px; }
 
 .container {
   max-width: 1440px;
@@ -288,6 +286,9 @@ template {
   color: #fff;
   background-color: black;
   text-shadow: 1px 1px 1px gray; }
+  .button:hover {
+    text-decoration: none;
+    color: #fff; }
 
 .menu {
   display: flex;
@@ -370,7 +371,8 @@ template {
   background: url("../../img/largest-hiking-background.jpg") 100%/cover;
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  margin-bottom: 110px; }
   .org__title {
     font-size: 46px;
     font-weight: 700;
@@ -388,3 +390,21 @@ template {
     max-width: 830px;
     margin: 0 auto;
     text-align: center; }
+
+.contact {
+  margin-bottom: 110px; }
+  .contact .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around; }
+  .contact__title {
+    font-size: 46px;
+    line-height: 50px;
+    font-weight: 700;
+    max-width: 600px;
+    margin-bottom: 40px; }
+  .contact__descr {
+    font-size: 21px;
+    line-height: 25px;
+    max-width: 586px;
+    margin-bottom: 40px; }

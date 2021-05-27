@@ -10,4 +10,8 @@
     color: #fff;
     background-color: black;
     text-shadow: 1px 1px 1px gray;
+    &:hover {
+        text-decoration: none;
+        color: #fff;
+    }
 }
