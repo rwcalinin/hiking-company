@@ -106,11 +106,26 @@ function slideSlider(leftArrowSel, rightArrowSel, gallerySel, gallerySlidesSel, 
   gallery = document.querySelector(gallerySel),
         gallerySlides = document.querySelectorAll(gallerySlidesSel);
   let count = 1,
-      sliderTransformX = 0; // -311px at one slide
+      sliderTransformX = 0; // -280px at one slide
 
   gallery.style.transform = 'translateX(0px)'; // setTimeout(() => {
   //     gallery.classList.toggle('hide');
   // }, 1000);
+
+  leftArrow.addEventListener('click', () => {
+    sliderTransformX += 314;
+    setSlidesPosition();
+    countCurrentSlide(currentCountSelector, gallerySlides);
+  });
+  rightArrow.addEventListener('click', () => {
+    sliderTransformX -= 314;
+    setSlidesPosition();
+    countCurrentSlide(currentCountSelector, gallerySlides);
+  });
+
+  function setSlidesPosition() {
+    gallery.style.transform = `translateX(${sliderTransformX}px)`;
+  }
 
   totalSlidesCountPaste(gallerySlides);
 
@@ -130,9 +145,9 @@ function slideSlider(leftArrowSel, rightArrowSel, gallerySel, gallerySlidesSel, 
     const totalSlides = gall.length;
 
     if (totalSlides < 10) {
-      curSel.textContent = `0${sliderTransformX / -311 + 1}`;
+      curSel.textContent = `0${sliderTransformX / -314 + 1}`;
     } else {
-      curSel.textContent = `${sliderTransformX / -311 + 1}`;
+      curSel.textContent = `${sliderTransformX / -314 + 1}`;
     }
   }
 }
