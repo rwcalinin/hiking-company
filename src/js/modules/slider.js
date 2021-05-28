@@ -10,6 +10,8 @@ function slideSlider(leftArrowSel, rightArrowSel, gallerySel, gallerySlidesSel, 
           gallery = document.querySelector(gallerySel),
           gallerySlides = document.querySelectorAll(gallerySlidesSel);
 
+    gallery.style.transform = 'translateX(0)';
+
     totalSlidesCountPaste(gallerySlides);
     function totalSlidesCountPaste(gall) {
         const totalSlides = gall.length;
@@ -21,6 +23,8 @@ function slideSlider(leftArrowSel, rightArrowSel, gallerySel, gallerySlidesSel, 
             totalCountSelector.textContent = `/${totalSlides}`;
         }
     }
+
+
 
 
 }

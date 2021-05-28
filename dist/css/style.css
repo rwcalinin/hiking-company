@@ -681,3 +681,7 @@ template {
   .footer__lower {
     flex-direction: column-reverse;
     text-align: center; } }
+
+.hide {
+  display: none;
+  transition: all 1s; }
