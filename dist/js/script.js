@@ -104,8 +104,9 @@ function slideSlider(leftArrowSel, rightArrowSel, gallerySel, gallerySlidesSel, 
         totalCountSelector = document.querySelector(totalCountSel),
         // ? gallery selector:
   gallery = document.querySelector(gallerySel),
-        gallerySlides = document.querySelectorAll(gallerySlidesSel);
-  gallery.style.transform = 'translateX(0)';
+        gallerySlides = document.querySelectorAll(gallerySlidesSel); // -311px at one slide
+
+  gallery.style.transform = 'translateX(0px)';
   totalSlidesCountPaste(gallerySlides);
 
   function totalSlidesCountPaste(gall) {

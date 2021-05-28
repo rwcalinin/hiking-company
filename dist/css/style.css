@@ -476,14 +476,14 @@ template {
   color: #9a9a9a; }
 
 .choose__gallery {
-  max-width: 1375px; }
+  max-width: 1375px;
+  overflow: hidden; }
 
 .choose__gallery-inner {
-  display: flex;
-  overflow: hidden; }
+  display: flex; }
   .choose__gallery-inner img {
     margin-right: 34px;
-    height: 100%; }
+    height: 365px; }
 
 .footer {
   margin-bottom: 30px; }
