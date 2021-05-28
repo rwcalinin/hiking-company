@@ -33,6 +33,6 @@
 
 // ? SPEC classes
 .hide {
-    display: none;
-    transition: all 1s;
+    opacity: 0;
+    transition: all 0.5s;
 }
