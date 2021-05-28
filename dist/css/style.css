@@ -476,11 +476,11 @@ template {
   color: #9a9a9a; }
 
 .choose__gallery {
-  max-width: 1375px;
   overflow: hidden; }
 
 .choose__gallery-inner {
-  display: flex; }
+  display: flex;
+  transition: all 0.3s; }
   .choose__gallery-inner img {
     margin-right: 34px;
     width: 280px; }
