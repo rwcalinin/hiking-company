@@ -16,6 +16,12 @@
 
     &__callback {
         font-weight: 700;
+        a {
+            &:hover {
+                text-decoration: none;
+                color: #fff;
+            }
+        }
     }
     &__call-us {
         max-width: 86px;

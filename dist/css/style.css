@@ -408,8 +408,7 @@ template {
       letter-spacing: 2.5px;
       color: #000; }
       .menu__nav a:hover {
-        text-decoration: none;
-        color: #000; }
+        text-decoration: underline; }
 
 .promo {
   background: url("../../img/hills.png") center center/cover no-repeat;
@@ -498,6 +497,9 @@ template {
     padding: 0 50px 25px 50px; }
   .footer__callback {
     font-weight: 700; }
+    .footer__callback a:hover {
+      text-decoration: none;
+      color: #fff; }
   .footer__call-us {
     max-width: 86px;
     color: #fff;
